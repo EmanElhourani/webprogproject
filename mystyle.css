@@ -1,0 +1,31 @@
+		
+			*{
+				padding: 0 0 0 0;
+				margin: 0 0 0 0;
+				font-family: helvetica, Arial, sans-serif;
+			}
+			a{
+				text-decoration: none;
+				color: #2c1549;
+			}
+			a:hover{
+				opacity: 0.5;
+			}
+			header{
+				display: flex;
+				justify-content: space-between;
+				padding: 20px 60px;
+				
+			}
+			header .list{
+				display: flex;
+				align-items: center;
+			}
+			header ul{
+				display: flex;
+				list-style: none;
+			}
+			header li{
+				margin-right: 20px; 
+			}
+		
