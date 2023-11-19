@@ -28,4 +28,65 @@
 			header li{
 				margin-right: 20px; 
 			}
-		
+			header{
+				background-color:white;
+			}
+			body{
+				background-color:#f9f7fc;
+			}
+			.wrapper{
+				background-color:white;
+				position: absolute;
+				width:80vw;
+				max-width: 25em;
+				min-height: 25em;
+				border-radius: 0.6 em;
+				transform: translate(-50%, -50%);
+				left: 50%;
+				top: 50%;
+				box-shadow: 1 1 1 1.8em 0 rgba(1, 17, 39, 0.15);
+				display: flex;		
+				justify-content: center;
+				align-items: center;
+}
+			}
+			.testimonial-container {
+				width: 85%;
+				height: 100%;
+				position: center;
+				margin: auto;
+				padding: 1.8em 1.2em;
+				display: flex;
+				align-items: center;
+				
+			}
+			.wrapper button {
+				font-size: 1.5em;
+				height: 2.2em;
+				width: 2.2em;
+				background-color: #ffffff;
+				position: absolute;
+				margin: auto;
+				top: 0;
+				bottom: 0;
+				border: none;
+				color: #a070f9;
+				box-shadow: 0 0 0.5em rgba(1, 17, 39, 0.25);
+				cursor: pointer;
+				border-radius:50% ;
+			}
+			button#next {
+				right: -1.0em;
+			}
+			button#prev {
+				left: -1.0em;
+			}
+			
+			.wrapper img#icon {
+				height: 30px;   
+				margin-top: 20em;
+
+			}
+			
+			
+			
