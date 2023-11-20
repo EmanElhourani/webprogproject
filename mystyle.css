@@ -11,6 +11,9 @@
 			a:hover{
 				opacity: 0.5;
 			}
+			li a:hover{
+				color:#f096d4;
+			}
 			header{
 				display: flex;
 				justify-content: space-between;
@@ -34,6 +37,30 @@
 			body{
 				background-color:#f9f7fc;
 			}
+			.sub {
+            display: none;
+            position: absolute;
+            background-color: #f9f7fc;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            z-index: 1;
+        }
+
+        li:hover .sub {
+            display: block;
+        }
+
+        .sub ul {
+			display: flex;
+			flex-direction: column;
+            padding: 0;
+            margin: 0;
+        }
+
+        .sub li {
+            padding: 10px;
+            text-align: left;
+        }
+
 			.wrapper{
 				background-color:white;
 				position: absolute;
@@ -51,9 +78,10 @@
 }
 			}
 			.testimonial-container {
+				border: 1px solid black;
 				width: 85%;
 				height: 100%;
-				position: center;
+				position: relative;
 				margin: auto;
 				padding: 1.8em 1.2em;
 				display: flex;
@@ -87,6 +115,22 @@
 				margin-top: 20em;
 
 			}
+			.wrapper img#icon:hover {
+			 transform: scale(1.2);
+			}
 			
-			
+			div p{
+				margin-top:110px;
+				padding:200px;
+				color:#2c1549;
+				font-family:dubai;
+			}
+			p:first-child:first-letter {
+			  color:#a070f9;
+			  font-size: 80px;
+			  padding-right: 8px;
+			  float:left;
+			  line-height: 0.9;
+			  font-family: georgia;
+			}
 			

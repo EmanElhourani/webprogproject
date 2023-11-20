@@ -166,7 +166,7 @@ let displayTestimonial = () => {
   audio.src = testimonials[i].audio;
   // Play the audio automatically when switching testimonials
   audio.play();
-  icon.src = "images/pause.png";
+  icon.src = "images/play.png";
 };
 
 icon.onclick = function () {

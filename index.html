@@ -16,6 +16,9 @@
 			a:hover{
 				opacity: 0.5;
 			}
+			li a:hover{
+				color:#f096d4;
+			}
 			header{
 				display: flex;
 				justify-content: space-between;
@@ -88,6 +91,31 @@
 				font-weight: bold;
 				color:#9aa4fc;;
 			}
+			.sub {
+            display: none;
+            position: absolute;
+            background-color: #f9f7fc;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            z-index: 1;
+        }
+
+        li:hover .sub {
+            display: block;
+        }
+
+        .sub ul {
+			display: flex;
+			flex-direction: column;
+            padding: 0;
+            margin: 0;
+        }
+
+        .sub li {
+            padding: 10px;
+            text-align: left;
+        }
+
+			
 		</style>
 	</head>
 	<body> 
@@ -95,8 +123,18 @@
 		<div> <h2 style="color:#a070f9; text-shadow:-1px 1px #2c1549;"> Learning language </h2></div>
 		<div> <ul> 
 			<li><a href="index.html">HOME</a></li>
-			<li><a href="">MENU</a></li>
-			<li><a href="#about us">ABOUT US</a></li>
+            <li>
+                <a href="#">MENU</a>
+                <div class="sub">
+                    <ul>
+                        <li><a href="english.html">English</a></li>
+                        <li><a href="spanish.html">Spanish</a></li>
+                        <li><a href="french.html">French</a></li>
+                        <li><a href="arabic.html">Arabic</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#about us">ABOUT US</a></li>
 		</ul></div>
 		
 	</header>
